@@ -1,0 +1,28 @@
+/* Professional simple hotel theme */
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;margin:0;background:#f4f6f9;color:#263238}
+a{color:inherit}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:#0f1724;color:#fff}
+.logo{font-weight:700;font-size:18px}
+.navbar nav a{margin-left:16px;color:#e6eef8;text-decoration:none;font-weight:600}
+.navbar nav a:hover{color:#ffd166}
+.hero{background:linear-gradient(0deg, rgba(15,23,36,0.7), rgba(15,23,36,0.7)), url('assets/banner.jpg') center/cover no-repeat;min-height:360px;display:flex;align-items:center;justify-content:center;padding:40px 20px;color:#fff;text-align:center}
+.hero-inner h1{font-size:36px;margin-bottom:8px}
+.hero-inner p{opacity:0.9;margin-bottom:14px}
+.btn{background:#ffd166;padding:12px 22px;border-radius:8px;color:#0f1724;text-decoration:none;font-weight:700}
+.info{display:flex;gap:20px;padding:32px;max-width:1000px;margin:0 auto}
+.info-card{background:#fff;padding:18px;border-radius:10px;flex:1;box-shadow:0 6px 18px rgba(12,15,20,0.06)}
+.form-section{max-width:520px;margin:28px auto;padding:26px;background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(12,15,20,0.06)}
+.form-section h2{margin-bottom:18px}
+.reservation-form, .contact-form{display:flex;flex-direction:column;gap:12px}
+.reservation-form input, .contact-form input, .contact-form textarea{padding:10px;border:1px solid #e6eef8;border-radius:8px;font-size:15px}
+.row{display:flex;gap:10px}
+.row input{flex:1}
+button{background:#0f1724;color:#fff;padding:12px;border-radius:8px;border:none;font-weight:700;cursor:pointer}
+button:hover{opacity:0.92}
+.bookings{width:100%;border-collapse:collapse;margin-top:12px}
+.bookings th, .bookings td{padding:10px;border:1px solid #eef3f7;text-align:left}
+.muted{color:#6b7280}
+.success{background:#e6ffed;padding:10px;border-left:4px solid #34d399;margin-bottom:12px}
+.error{background:#fff0f0;padding:10px;border-left:4px solid #f87171;margin-bottom:12px}
+.footer{background:#0f1724;color:#fff;padding:14px 20px;text-align:center;margin-top:28px}
